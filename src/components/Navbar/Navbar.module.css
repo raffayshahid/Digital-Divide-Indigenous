@@ -1,0 +1,33 @@
+.navbar {
+    display: flex; /* Establishes a flex container */
+    align-items: center; /* Vertically centers the flex items */
+    justify-content: space-between; /* Positions the logo and nav list on opposite ends */
+    background-color: #002244;
+    color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+.logoContainer {
+    /* Adjustments for the logo container if necessary */
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align nav items in a row */
+    gap: 20px; /* Creates space between each nav item */
+}
+
+.navItem {
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #00529B;
+}
