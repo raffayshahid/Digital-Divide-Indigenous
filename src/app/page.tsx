@@ -5,12 +5,15 @@ import styles from '@/styles/Home.module.css';
 import Navbar from '@/components/Navbar/Navbar';
 import Introduction from '@/components/Introduction/Introduction';
 import StatsSection from '@/components/StatsSection/StatsSection';
+import Footer from '@/components/Footer/Footer';
 const Home: NextPage = () => {
   return (
     <div>
       <Navbar />
       <Introduction />
       <StatsSection />
+
+      <Footer />
     </div>
   );
 };
