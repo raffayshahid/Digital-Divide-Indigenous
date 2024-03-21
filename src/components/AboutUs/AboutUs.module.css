@@ -6,11 +6,26 @@
 }
 
 .aboutUs h2 {
-    color: #333; /* Dark text color for the heading */
+    color: #161616; /* Dark text color for the heading */
     margin-bottom: 10px; /* Spacing below the heading */
 }
 
 .aboutUs p {
-    color: #666; /* Lighter text color for the paragraph */
+    color: #161616; /* Lighter text color for the paragraph */
     line-height: 1.6; /* Line height for readability */
 }
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the space between images */
+    margin-bottom: 20px; /* Space above the paragraph */
+  }
+  
+  .imageContainer img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the images circular */
+    object-fit: cover; /* Ensures the images cover the area without distortion */
+  }
+

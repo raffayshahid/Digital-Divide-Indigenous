@@ -1,0 +1,49 @@
+/* Footer.module.css */
+.footer {
+    background-color: #4a306d; /* Darker purple */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px 40px; /* Adequate padding */
+    text-align: center; /* Center-align the text */
+    font-size: 14px; /* Adjusted font size for readability */
+  }
+  
+  .footer p, .footer form {
+    margin: 10px 0; /* Spacing */
+  }
+  
+  .newsletterSignup {
+    margin-top: 20px; /* Additional spacing for the newsletter form */
+  }
+  
+  .inputField, .submitButton {
+    padding: 10px;
+    margin-top: 5px; /* Vertical spacing */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .inputField {
+    border: 2px solid #5d3c77; /* Border color */
+    background-color: #f0f0f0; /* Light background for input field */
+    margin-right: 10px; /* Spacing between input field and button */
+    width: calc(100% - 120px); /* Adjust width to leave space for button, adjust as needed */
+  }
+  
+  .submitButton {
+    cursor: pointer; /* Change cursor on hover */
+    background-color: #5d3c77; /* Purple background */
+    color: #ffffff; /* White text */
+    border: none; /* No border for button */
+    width: 100px; /* Adjust as needed */
+  }
+  
+  @media (max-width: 600px) {
+    .inputField {
+      width: calc(100% - 110px); /* Adjust for smaller screens */
+      margin-bottom: 10px; /* Stack input field and button vertically on small screens */
+    }
+  
+    .submitButton {
+      width: 100%; /* Full width for mobile */
+    }
+  }
+  

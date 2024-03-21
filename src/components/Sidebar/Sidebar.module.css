@@ -1,0 +1,25 @@
+.sidebar {
+    background-color: #5d3c77;
+    color: #ffffff;
+    width: 200px; /* Adjusted width */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 2px;
+    min-height: 100vh;
+}
+
+  
+.sidebar-image-container {
+    @apply mb-5 px-4 flex justify-center;
+}
+  
+.sidebar-image {
+    @apply rounded-full;
+}
+  
+.sidebar-link {
+    @apply block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 text-white;
+}
