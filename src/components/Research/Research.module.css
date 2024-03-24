@@ -1,0 +1,31 @@
+.research {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px 0; /* Margin for spacing around the section */
+}
+
+.research h2 {
+    color: #161616; /* Dark text color for the heading */
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+.research p {
+    color: #161616; /* Lighter text color for the paragraph */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the space between images */
+    margin-bottom: 20px; /* Space above the paragraph */
+  }
+
+  .imageContainer img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the images circular */
+    object-fit: cover; /* Ensures the images cover the area without distortion */
+  }
+
