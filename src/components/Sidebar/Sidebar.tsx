@@ -11,7 +11,7 @@ const Sidebar = () => {
       </div>
       {}
       <a href="/" className={Style["sidebar-link"]}>Home</a>
-      <a href="/about_us" className={Style["sidebar-link"]}>About Us</a>
+      <a href="/about" className={Style["sidebar-link"]}>About Us</a>
       <a href="/research" className={Style["sidebar-link"]}>Our Research</a>
       <a href="/help" className={Style["sidebar-link"]}>How to Help</a>
       <a href="/contact" className={Style["sidebar-link"]}>Contact Us</a>
