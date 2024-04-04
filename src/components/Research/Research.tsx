@@ -59,7 +59,6 @@ const Research = () => {
         non-users and basic users towards more advanced internet usage categories from 2018 to 2020 
         indicates a narrowing digital divide, partly due to the increased reliance on digital 
         technologies during the COVID-19 pandemic. 
-        {/* Insert hyperlink to Statistics Canada study here */}
       </p>
       <div>
         <h3>Internet User Categories (2018 vs. 2020)</h3>
@@ -69,6 +68,9 @@ const Research = () => {
           users across different proficiency levels in 2018 and 2020, revealing a notable 
           decrease in non-users and basic users over this period.
         </p>
+        <p style={{color: 'blue', textDecoration: 'underline'}}>
+        <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/220428/dq220428b-eng.htm" style={{color: 'blue', textDecoration: 'underline'}}>Statistics Canada study</a>
+      </p>
       </div>
       
       <div>
@@ -79,7 +81,9 @@ const Research = () => {
           increase in high-speed internet coverage across Canada, aiming for 95% by 2026 and 
           universal access by 2030. This initiative reflects a commitment to bridging the 
           digital divide and ensuring digital equity.
-          {/* Insert hyperlink to Government of Canada’s Connectivity Strategy here */}
+        </p>
+        <p style={{color: 'blue', textDecoration: 'underline'}}>
+          <a href="https://ised-isde.canada.ca/site/high-speed-internet-canada/en/canadas-connectivity-strategy" style={{color: 'blue', textDecoration: 'underline'}}>Government of Canada’s Connectivity Strategy</a>
         </p>
       </div>
       <div>
@@ -88,7 +92,6 @@ const Research = () => {
         The data and projections underscore the importance of continued efforts to enhance digital 
         literacy and infrastructure, especially among marginalized and rural communities. For more 
         detailed information and to access the full studies, please refer to the original sources.
-        {/* Consider listing all the references or inserting hyperlinks directly to the sources */}
       </p>
       </div>
     </section>
