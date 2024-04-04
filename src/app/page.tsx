@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar/Navbar';
 import Sidebar from '@/components/Sidebar/Sidebar';
 import Introduction from '@/components/Introduction/Introduction';
 import StatsSection from '@/components/StatsSection/StatsSection';
+import VideoSection from '@/components/VideoSection/VideoSection';
 import Footer from '@/components/Footer/Footer';
 
 
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <Sidebar />
       <div className="flex-1">
         <Introduction />
+        <VideoSection embedId="dQw4w9WgXcQ" />
         <StatsSection />
         <Footer />
       </div>
