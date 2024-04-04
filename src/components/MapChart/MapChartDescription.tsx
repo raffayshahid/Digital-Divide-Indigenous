@@ -34,7 +34,8 @@ export default function MapChartDescription() {
       <br></br>
       <p className={styles.statsHeading}>
         Access to internet across Canada remains varied and much work needs to be done to ensure people in rural areas
-        have internet structure comporable to people in urban locales in relation to upload and download speeds.
+        have internet structure comporable to people in urban locales in relation to upload and download speeds. This
+        data was taken from https://www.speedtest.net/performance/canada to compare data speeds across Canada.
       </p>
     </div>
   )
