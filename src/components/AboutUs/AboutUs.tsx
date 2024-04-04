@@ -9,7 +9,7 @@ const AboutUs: React.FC = () => (
       <div className={styles.circularImage}><Image src="/Oliver.jpeg" alt="Oliver Neish" width={100} height={100} /></div>
       <div className={styles.circularImage}><Image src="/Raffay.jpg" alt="Raffay Shahid" width={100} height={100} /></div>
       <div className={styles.circularImage}><Image src="/Jerry.jpeg" alt="Jerry Hu" width={100} height={100} /></div>
-      <div className={styles.circularImage}><Image src="/Josh.jpg" alt="Josh Dancey" width={100} height={100} /></div>
+      <div className={styles.circularImage}><Image src="/Josh.JPG" alt="Josh Dancey" width={100} height={100} /></div>
     </div>
     <p>
       From left to right: Oliver Neish, Raffay Shahid, Jerry Hu, Josh Dancey
