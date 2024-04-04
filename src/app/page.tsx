@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <Sidebar />
       <div className="flex-1">
         <Introduction />
-        <VideoSection embedId="dQw4w9WgXcQ" />
+        <VideoSection embedId="tjmCgdfe78c" />
         <StatsSection />
         <Footer />
       </div>
