@@ -8,8 +8,26 @@
 .contact h2 {
     color: #161616; /* Dark text color for the heading */
     margin-bottom: 10px; /* Spacing below the heading */
+    font-weight: bold; /* Makes the text bold */
 }
 
+.contact h3 {
+    color: #161616; /* Dark text color for the heading */
+    margin-bottom: 10px; /* Spacing below the heading */
+    font-weight: bold; /* Makes the text bold */
+}
+
+
+.contact a {
+    color: #007bff; /* Example blue color; adjust as needed */
+    text-decoration: underline; /* Ensures the link is underlined */
+  }
+
+  .contact a:hover, .contact a:focus {
+    color: #0056b3; /* Darker blue on hover/focus; adjust as needed */
+    text-decoration: none; /* Example: remove underline on hover/focus */
+  }
+  
 .contact p {
     color: #161616; /* Lighter text color for the paragraph */
     line-height: 1.6; /* Line height for readability */

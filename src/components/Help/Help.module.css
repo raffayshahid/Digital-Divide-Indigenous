@@ -5,9 +5,10 @@
     margin: 20px 0; /* Margin for spacing around the section */
 }
 
-.help h2 {
+.help h2, .help h3 {
     color: #161616; /* Dark text color for the heading */
-    margin-bottom: 10px; /* Spacing below the heading */
+    margin-top: 10px; /* Spacing below the heading */
+    font-weight: bold;
 }
 
 .help p {
@@ -15,17 +16,30 @@
     line-height: 1.6; /* Line height for readability */
 }
 
+/* Style for links */
+.help a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: underline; /* Ensure links are underlined */
+    margin-bottom: 10px; /* Space below the link */
+}
+
+/* Style for links on hover */
+.help a:hover {
+    color: #0056b3; /* Darker shade of blue for hover state */
+    text-decoration: none; /* Remove underline on hover for a change */
+    margin-bottom: 10px;
+}
+
 .imageContainer {
     display: flex;
     justify-content: center;
     gap: 20px; /* Adjust the space between images */
     margin-bottom: 20px; /* Space above the paragraph */
-  }
+}
 
-  .imageContainer img {
+.imageContainer img {
     width: 100px; /* Adjust size as needed */
     height: 100px; /* Adjust size as needed */
     border-radius: 50%; /* Makes the images circular */
     object-fit: cover; /* Ensures the images cover the area without distortion */
-  }
-
+}
